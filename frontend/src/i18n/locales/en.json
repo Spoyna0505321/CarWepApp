@@ -1,0 +1,96 @@
+{
+  "home": {
+    "locked": "Vehicle Locked",
+    "unlocked": "Vehicle Unlocked",
+    "unlock": "Unlock",
+    "lock": "Lock",
+    "lights": "Lights",
+    "turnOff": "Turn Off",
+    "climate": "Climate",
+    "cancel": "Cancel",
+    "location": "Location",
+    "trunk": "Front & Rear Trunk",
+    "openTrunk": "Open Trunk",
+    "close": "Close",
+    "cabinTemperature": "Cabin Temperature",
+    "active": "Active",
+    "off": "Off",
+    "softwareVersion": "Software Version",
+    "upToDate": "Up to Date",
+    "range": "Range",
+    "locationMessage": "NEXUS Location: 41.0082° N, 28.9784° E (Kadıköy, Istanbul)\nShowing on map..."
+  },
+  "profile": {
+    "title": "Profile",
+    "email": "Email",
+    "displayName": "Display Name",
+    "carModel": "Car Model",
+    "language": "Language",
+    "avatar": "Profile Picture",
+    "changeAvatar": "Change Profile Picture",
+    "save": "Save",
+    "cancel": "Cancel",
+    "logout": "Log Out",
+    "turkish": "Turkish",
+    "english": "English",
+    "changeLanguage": "Change Language"
+  },
+    "navbar": {
+    "modelS": "Model S",
+    "model3": "Model 3",
+    "modelX": "Model X",
+    "modelY": "Model Y",
+    "cyber": "Cyber",
+    "qrScan": "QR Scanner",
+    "account": "Account",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "footer": {
+    "privacy": "Privacy & Legal",
+    "contact": "Contact",
+    "careers": "Careers",
+    "news": "News",
+    "locations": "Locations",
+    "country": "Türkiye"
+  },
+  "auth": {
+    "layout": {
+      "subtitle": "ENTER THE FUTURE"
+    },
+
+    "login": {
+      "email": "EMAIL ADDRESS",
+      "password": "PASSWORD",
+      "forgotPassword": "FORGOT PASSWORD",
+      "loginButton": "LOG IN",
+      "loggingIn": "LOGGING IN",
+      "noAccount": "DON'T HAVE AN ACCOUNT?",
+      "createAccount": "CREATE ACCOUNT"
+    },
+    "register": {
+      "displayName": "DISPLAY NAME",
+      "email": "EMAIL ADDRESS",
+      "password": "PASSWORD",
+      "registerButton": "REGISTER",
+      "registering": "REGISTERING",
+      "hasAccount": "ALREADY HAVE AN ACCOUNT?",
+      "login": "LOG IN"
+    },
+    "forgotPassword": {
+      "title": "RESET PASSWORD",
+      "email": "EMAIL ADDRESS",
+      "sendButton": "SEND RESET LINK",
+      "sending": "SENDING",
+      "backToLogin": "BACK TO LOGIN"
+    },
+    "resetPassword": {
+        "title": "RESET PASSWORD",
+        "email": "EMAIL ADDRESS",
+        "sendButton": "SEND RESET LINK",
+        "sending": "SENDING",
+        "hasAccount": "ALREADY HAVE AN ACCOUNT?",
+        "login": "LOG IN"
+    }
+  }
+}

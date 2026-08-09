@@ -1,0 +1,95 @@
+{
+  "home": {
+    "locked": "Araç Kilitli",
+    "unlocked": "Araç Kilidi Açık",
+    "unlock": "Kilidi Aç",
+    "lock": "Kilitle",
+    "lights": "Işıklar",
+    "turnOff": "Kapat",
+    "climate": "Klima",
+    "cancel": "İptal",
+    "location": "Konum",
+    "trunk": "Ön & Arka Bagaj",
+    "openTrunk": "Bagajı Aç",
+    "close": "Kapat",
+    "cabinTemperature": "Kabin Sıcaklığı",
+    "active": "Aktif",
+    "off": "Kapalı",
+    "softwareVersion": "Yazılım Sürümü",
+    "upToDate": "Güncel",
+    "range": "Menzil",
+    "locationMessage": "NEXUS Konumu: 41.0082° N, 28.9784° E (Kadıköy, İstanbul)\nHarita üzerinde gösteriliyor..."
+  },
+  "profile": {
+    "title": "Profil",
+    "email": "E-posta",
+    "displayName": "Görünen Ad",
+    "carModel": "Araç Modeli",
+    "language": "Dil",
+    "avatar": "Profil Fotoğrafı",
+    "changeAvatar": "Profil Fotoğrafını Değiştir",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "logout": "Çıkış Yap",
+    "turkish": "Türkçe",
+    "english": "İngilizce",
+    "changeLanguage": "Dili Değiştir"
+  },
+    "navbar": {
+    "modelS": "Model S",
+    "model3": "Model 3",
+    "modelX": "Model X",
+    "modelY": "Model Y",
+    "cyber": "Cyber",
+    "qrScan": "QR Okutma",
+    "account": "Hesap",
+    "menu": "Menü",
+    "close": "Kapat"
+  },
+  "footer": {
+    "privacy": "Gizlilik ve Yasal",
+    "contact": "İletişim",
+    "careers": "Kariyer",
+    "news": "Haberler",
+    "locations": "Lokasyonlar",
+    "country": "Türkiye"
+  },
+"auth": {
+    "layout": {
+      "subtitle": "GELECEĞE GİRİŞ YAPIN"
+    },
+    "login": {
+      "email": "E-POSTA ADRESİ",
+      "password": "ŞİFRE",
+      "forgotPassword": "ŞİFREMİ UNUTTUM",
+      "loginButton": "GİRİŞ YAP",
+      "loggingIn": "GİRİŞ YAPILIYOR",
+      "noAccount": "HESABINIZ YOK MU?",
+      "createAccount": "HESAP OLUŞTURUN"
+    },
+    "register": {
+      "displayName": "GÖRÜNEN İSİM",
+      "email": "E-POSTA ADRESİ",
+      "password": "ŞİFRE",
+      "registerButton": "KAYIT OL",
+      "registering": "GÖNDERİLİYOR...",
+      "hasAccount": "ZATEN HESABINIZ VAR MI?",
+      "login": "GİRİŞ YAPIN"
+    },
+    "forgotPassword": {
+      "title": "ŞİFRE SIFIRLA",
+      "email": "E-POSTA ADRESİ",
+      "sendButton": "SIFIRLAMA LİNKİ GÖNDER",
+      "sending": "GÖNDERİLİYOR",
+      "backToLogin": "GİRİŞE DÖN"
+    },
+    "resetPassword": {
+    "title": "ŞİFRE SIFIRLA",
+    "email": "E-POSTA ADRESİ",
+    "sendButton": "ŞİFRE SIFIRLAMA LİNKİ GÖNDER",
+    "sending": "GÖNDERİLİYOR",
+    "hasAccount": "ZATEN HESABINIZ VAR MI?",
+    "login": "GİRİŞ YAPIN"
+    }
+  }
+}
