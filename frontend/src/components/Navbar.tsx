@@ -1,5 +1,6 @@
 import{ useState } from 'react';
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { t } = useTranslation();
@@ -7,9 +8,9 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/10 backdrop-blur-md border-b border-white/[0.05] transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <div className="flex items-center">
-          <a href="/home" className="text-xl font-bold tracking-[0.4em] text-white uppercase font-mono">
+          <Link to="/home" className="text-xl font-bold tracking-[0.4em] text-white uppercase font-mono">
             NEXUS
-          </a>
+          </Link>
         </div>
         <div className="hidden md:flex items-center space-x-8">
           {['Model S', 'Model 3', 'Model X', 'Model Y', 'Cyber'].map((item) => (
@@ -23,15 +24,15 @@ export function Navbar() {
           ))}
         </div>
         <div className="hidden md:flex items-center space-x-6">
-          <a href="qr-scan" className="text-xs font-medium tracking-[0.15em] text-gray-300 hover:text-white uppercase transition-colors duration-200">
+          <Link to="qr-scan" className="text-xs font-medium tracking-[0.15em] text-gray-300 hover:text-white uppercase transition-colors duration-200">
             {t("navbar.qrScan")}
-          </a>
-          <a 
-            href="/profile" 
+          </Link>
+          <Link 
+            to="/profile" 
             className="text-xs font-medium tracking-[0.15em] text-black bg-white px-4 py-2 rounded-full hover:bg-gray-200 transition-all duration-200"
           >
            {t("navbar.account")}
-          </a>
+          </Link>
         </div>
         <div className="md:hidden">
           <button 
