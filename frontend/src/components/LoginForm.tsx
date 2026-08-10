@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { getErrorMessage } from "../utils/errorHandler";
 import i18n from "../i18n/i18n";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 export function LoginForm(){
     const changeLanguage = async (language: "tr" | "en") => {
         await i18n.changeLanguage(language);
@@ -62,9 +63,9 @@ export function LoginForm(){
               </label>
             </div>
             <div className="flex justify-end">
-              <a href="/auth/reset-password" className="text-xs tracking-wider text-gray-400 hover:text-white transition-colors duration-200 uppercase">
+              <Link to="/auth/reset-password" className="text-xs tracking-wider text-gray-400 hover:text-white transition-colors duration-200 uppercase">
                 {t("auth.login.forgotPassword")}
-              </a>
+              </Link>
             </div>
 
             <button
