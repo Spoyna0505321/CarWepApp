@@ -25,12 +25,12 @@ export default function Profile() {
   const [oldPassword, setOldPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-    const isDisabled =
-    !oldPassword ||
-    !newPassword ||
-    !confirmPassword ||
-    newPassword !== confirmPassword ||
-    oldPassword === newPassword;
+    // const isDisabled =
+    // !oldPassword ||
+    // !newPassword ||
+    // !confirmPassword ||
+    // newPassword !== confirmPassword ||
+    // oldPassword === newPassword;
     // const isSaveDisabled =
     // editType === "password"
     //     ? isDisabled
