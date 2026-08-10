@@ -14,7 +14,7 @@ public class EmailService {
     }
     public void SendVerificationEmail(String email) {
         String verificationToken =  jwtService.createVerificationToken(email);
-        String verifyUrl = "http://localhost:8080/verify?token=" +
+        String verifyUrl = "https://carwebapp-backend.onrender.com/verify?token=" +
                 URLEncoder.encode(verificationToken, StandardCharsets.UTF_8);
         String message = "Click below to verify your email:\n" + verifyUrl;
         SimpleMailMessage mail = new SimpleMailMessage();
@@ -24,7 +24,7 @@ public class EmailService {
         javaMailSender.send(mail);
     }
     public void SendResetPassword(String email,String resetPasswordToken){
-        String verifyUrl = "http://localhost:8080/reset-password?token=" +
+        String verifyUrl = "https://carwebapp-backend.onrender.com/reset-password?token=" +
                 URLEncoder.encode(resetPasswordToken, StandardCharsets.UTF_8);
         String message = "Click below to reset your password:\n" + verifyUrl;
         SimpleMailMessage mail = new SimpleMailMessage();
