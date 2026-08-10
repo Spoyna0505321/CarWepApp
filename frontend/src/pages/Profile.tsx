@@ -16,7 +16,7 @@ export default function Profile() {
     TR: "Türkçe",
   };
   const [error,setError]= useState("");
-  const [file, setFile] = useState<File | null>(null);
+  // const [file, setFile] = useState<File | null>(null);
   const [profile,setProfile]= useState<ProfileResponse | null>(null);
   const [editType, setEditType] = useState<
   "displayName" | "password" | "language" | null
@@ -31,10 +31,10 @@ export default function Profile() {
     !confirmPassword ||
     newPassword !== confirmPassword ||
     oldPassword === newPassword;
-    const isSaveDisabled =
-    editType === "password"
-        ? isDisabled
-        : false;
+    // const isSaveDisabled =
+    // editType === "password"
+    //     ? isDisabled
+    //     : false;
   const [value, setValue] = useState("");
   const avatarUrl = profile?.avatarPath
           ? `http://localhost:8080/profile-photos/${profile.avatarPath}`
@@ -97,7 +97,7 @@ export default function Profile() {
 async function handleFileChange(e: React.ChangeEvent<HTMLInputElement>) {
     if (!e.target.files?.length) return;
     const selectedFile = e.target.files[0];
-    setFile(selectedFile);
+    // setFile(selectedFile);
     try {
         await userService.uploadAvatar(selectedFile);
         const updatedProfile = await userService.profile();
