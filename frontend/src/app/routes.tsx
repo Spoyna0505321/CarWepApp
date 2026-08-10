@@ -9,6 +9,7 @@ import ProtectedRoute from "../layouts/ProtectedRoute";
 import {  ResetPasswordPage } from "../pages/ResetPassword";
 import Profile from "../pages/Profile";
 import QrScannerPage from "../pages/QrScannerPage";
+import NotFoundPage from "../pages/NotFoundPage";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +34,13 @@ export const router = createBrowserRouter([
           { path: "reset-password",Component:ResetPasswordPage}
         ],
       },
+      {
+        path: "*",
+        Component: NotFoundPage,
+      },
     ],
+    
   },
+     
+
 ]);
